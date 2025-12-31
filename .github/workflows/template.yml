@@ -41,7 +41,7 @@ jobs:
           echo -e "\nFree space:"; df -h
         continue-on-error: true
       - name: Checkout Code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v6.0.1
         with:
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
           fetch-depth: 0
