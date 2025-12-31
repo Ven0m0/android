@@ -1,0 +1,114 @@
+# EditorConfig: https://editorconfig.org
+# Top-most EditorConfig file
+root = true
+
+###############################################################################
+# Default Settings for All Files
+###############################################################################
+[*]
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+tab_width = 2
+max_line_length = 120
+ktlint_code_style = intellij_idea
+ktlint_standard_no-wildcard-imports = disabled
+shell_variant = bash
+spaces_around_operators = true
+spaces_around_brackets = false
+keep_padding = false
+space_redirects = false
+switch_case_indent = false
+function_next_line = false
+binary_next_line = true
+
+###############################################################################
+# Shell Scripts
+###############################################################################
+# Fish
+[**.{fish,fish_*},fishd.*,fish_*]
+indent_style = space
+indent_size = 4
+tab_width = 2
+
+# Windows shell scripts
+[**.{bat,cmd,ps1,psm1}]
+indent_style = tab
+indent_size = 4
+tab_width = 2
+end_of_line = crlf
+
+###############################################################################
+# Programming Languages
+###############################################################################
+# C/C++
+[**.{c,cc,cpp,cxx,h,hpp,hxx}]
+indent_style = space
+indent_size = 4
+max_line_length = 100
+
+# C#, Java, PHP, Perl
+[**.{cs,java,php,pl,pm}]
+indent_style = space
+indent_size = 4
+max_line_length = 120
+
+# Go (requires tabs)
+[**.go,go.mod,go.sum]
+indent_style = tab
+indent_size = 4
+tab_width = 4
+
+# Rust & Zig
+[**.{rs,zig}]
+indent_style = space
+indent_size = 4
+
+###############################################################################
+# Configuration / Data Files
+###############################################################################
+# JSON, YAML, TOML
+[**.{json,json5,jsonc,yml,yaml,toml}]
+indent_style = space
+indent_size = 2
+max_line_length = 120
+
+# XML / HTML
+[**.{xml,html,htm}]
+indent_size = 4
+
+[**.svg]
+indent_style = space
+indent_size = 2
+
+###############################################################################
+# Markup / Documentation
+###############################################################################
+[**.{md,markdown}]
+max_line_length = 88
+trim_trailing_whitespace = false
+
+[**.{rst,txt}]
+trim_trailing_whitespace = false
+
+[**.{patch,diff}]
+trim_trailing_whitespace = false
+
+###############################################################################
+# Build Systems & Package Managers
+###############################################################################
+# Makefiles (require tabs)
+[{Makefile,**.mk,.gitmodules}]
+indent_style = tab
+indent_size = 4
+tab_width = 4
+
+###############################################################################
+# Special Cases
+###############################################################################
+# Minified files
+[**.min.{js,css}]
+insert_final_newline = false

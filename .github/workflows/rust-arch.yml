@@ -1,0 +1,57 @@
+name: Build rust arches
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref || github.run_id }}
+  cancel-in-progress: true
+permissions:
+  contents: write
+  pull-requests: write
+  checks: write
+  packages: read
+env:
+  DEBIAN_FRONTEND: noninteractive
+  LC_ALL: C
+  GITHUB_TOKEN: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
+
+jobs:
+  release:
+    name: Release - ${{ matrix.platform.os-name }}
+    strategy:
+      matrix:
+        platform:
+          - os-name: Linux-x86_64
+            runs-on: ubuntu-latest
+            target: x86_64-unknown-linux-musl
+
+          - os-name: Linux-aarch64
+            runs-on: ubuntu-latest
+            target: aarch64-unknown-linux-musl
+
+          - os-name: Android-aarch64
+            runs-on: ubuntu-latest
+            target: aarch64-linux-android
+
+          - os-name: Windows-x86_64
+            runs-on: windows-latest
+            target: x86_64-pc-windows-msvc
+
+    runs-on: ${{ matrix.platform.runs-on }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          depth: 1
+      - name: Build binary
+        uses: houseabsolute/actions-rust-cross@v1
+        with:
+          command: build
+          target: ${{ matrix.platform.target }}
+          args: "--locked -r"
+          strip: true
+      - name: Publish artifacts and release
+        uses: houseabsolute/actions-rust-release@v0
+        with:
+          executable-name: ubi
+          target: ${{ matrix.platform.target }}
