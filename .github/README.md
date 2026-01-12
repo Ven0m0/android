@@ -50,6 +50,11 @@
 - https://github.com/wxxsfxyzm/PowerOptimizeEnabler
 - https://github.com/krishna3163/shizuku-apps-root-alternative
 - https://github.com/dorumrr/de1984
+- https://llamalab.com/automate
+- https://llamalab.com/automate/community/flows/48004
+- https://llamalab.com/automate/community/flows/44848
+- https://llamalab.com/automate/community/flows/50863
+- https://llamalab.com/automate/community/flows/51012
 
 
 ### ADB
