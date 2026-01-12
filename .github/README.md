@@ -11,3 +11,8 @@
 - https://github.com/AAswordman/Operit
 - https://github.com/timschneeb/RootlessJamesDSP
 - https://github.com/jecis-repos/termux-shizuku-tools
+- https://mt2.cn
+- https://maximoff.su/apktool/?lang=en
+- https://github.com/AbdurazaaqMohammed/apk-modification
+- https://github.com/AbdurazaaqMohammed/discord-no-trackers
+- https://abdurazaaqmohammed.github.io/packageremovalhelper
