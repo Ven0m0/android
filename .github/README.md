@@ -34,4 +34,14 @@
 - https://github.com/ParadiseZ/autodaily
 - https://github.com/Shoukaku39/kdeconnect-android-shizuku
 - https://github.com/varunbala2237/gametuner
+- https://github.com/YasserNull/setbox
+    - `adb pm grant com.yn.setbox.plugin android.permission.WRITE_SECURE_SETTINGS`
+- https://play.google.com/store/apps/details?id=com.netvor.settings.database.editor&pli=1
 
+
+
+### ADB
+
+```bash
+adb shell system aod_using_super_wallpaper 1
+```
