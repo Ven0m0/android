@@ -38,7 +38,9 @@
     - `adb pm grant com.yn.setbox.plugin android.permission.WRITE_SECURE_SETTINGS`
 - https://play.google.com/store/apps/details?id=com.netvor.settings.database.editor&pli=1
 - https://play.google.com/store/apps/details?id=com.htetznaing.zfont2
-
+- https://github.com/Smooth-E/wireless-adb-switch
+- https://github.com/Carry-rrk/ManageSensors
+- https://github.com/B1ays/BHub
 
 
 ### ADB
