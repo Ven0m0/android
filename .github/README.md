@@ -49,6 +49,7 @@
 - https://github.com/aunchagaonkar/NetworkSwitch
 - https://github.com/wxxsfxyzm/PowerOptimizeEnabler
 - https://github.com/krishna3163/shizuku-apps-root-alternative
+- https://github.com/dorumrr/de1984
 
 
 ### ADB
