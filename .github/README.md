@@ -27,5 +27,11 @@
 - https://play.google.com/store/apps/details?id=com.precisebytes.androidtoggles.free.release
 - https://github.com/LinerSRT/SensorsOff
 - https://play.google.com/store/apps/details?id=in.ms.packagenamesscripter
-
+- https://github.com/tew080/AndroidPerformanceOptimization-APP
+- https://github.com/fahrez182/AxManager
+- https://github.com/king0929zion/Pikaso-AI
+- https://github.com/weixiansen574/HybridFileXfer
+- https://github.com/ParadiseZ/autodaily
+- https://github.com/Shoukaku39/kdeconnect-android-shizuku
+- https://github.com/varunbala2237/gametuner
 
