@@ -41,6 +41,14 @@
 - https://github.com/Smooth-E/wireless-adb-switch
 - https://github.com/Carry-rrk/ManageSensors
 - https://github.com/B1ays/BHub
+- https://github.com/protonpony/Shizuku-Keeper
+- https://github.com/MrHyperIon101/shizuku-apps
+- https://github.com/DP-Hridayan/aShellYou
+- https://github.com/risunCode/AppControl-X
+- https://github.com/LinZong/Hostman
+- https://github.com/aunchagaonkar/NetworkSwitch
+- https://github.com/wxxsfxyzm/PowerOptimizeEnabler
+- https://github.com/krishna3163/shizuku-apps-root-alternative
 
 
 ### ADB
