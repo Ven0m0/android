@@ -44,4 +44,7 @@
 
 ```bash
 adb shell system aod_using_super_wallpaper 1
+global GPUTUNER_SWITCH true
+secure install_non_market_apps 1
+global wifi_scan_always_enabled 0
 ```
