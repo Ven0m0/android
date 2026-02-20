@@ -11,10 +11,6 @@ Welcome to the Android Development & Tools wiki! This repository contains curate
 ### 🌐 Browser Development
 - **[Chromium Browser](Chromium-Browser)** - Custom Chromium builds and patches for Android
 
-### 🤖 AI Development Tools
-- **[Claude AI Instructions](Claude-AI-Instructions)** - Configuration and best practices for Claude AI
-- **[Gemini AI Instructions](Gemini-AI-Instructions)** - Configuration and best practices for Gemini AI
-
 ## 🚀 Quick Start
 
 ### Prerequisites
