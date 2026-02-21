@@ -1,3 +1,9 @@
+---
+title: Android Apps
+nav_order: 2
+description: "Curated Android applications: Revanced, Shizuku-enabled tools, and package management."
+---
+
 # Android Apps & Tools
 
 This page contains curated lists of Android applications and tools, organized by category.
@@ -142,5 +148,5 @@ adb pm grant com.yn.setbox.plugin android.permission.WRITE_SECURE_SETTINGS
 
 ## 🔙 Navigation
 
-- [← Back to Home](Home)
-- [ADB Commands →](ADB-Commands)
+- [← Back to Home](index.md)
+- [ADB Commands →](ADB-Commands.md)

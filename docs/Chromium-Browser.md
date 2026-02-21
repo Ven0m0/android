@@ -1,3 +1,9 @@
+---
+title: Chromium Browser
+nav_order: 4
+description: "Custom Chromium browser development for Android with performance and privacy enhancements."
+---
+
 # Chromium Browser for Android
 
 Custom Chromium browser development for Android with performance optimizations and privacy enhancements.
@@ -285,6 +291,5 @@ done
 
 ## 🔙 Navigation
 
-- [← Back to Home](Home)
-- [← ADB Commands](ADB-Commands)
-- [Claude AI Instructions →](Claude-AI-Instructions)
+- [← Back to Home](index.md)
+- [← ADB Commands](ADB-Commands.md)
