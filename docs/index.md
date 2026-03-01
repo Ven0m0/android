@@ -45,4 +45,4 @@ A curated collection of resources, tools, and configurations for Android develop
 | **Shizuku Apps** | [Awesome Shizuku List](https://github.com/timschneeb/awesome-shizuku) |
 | **Browser Dev** | [Brave Browser](https://github.com/brave/brave-browser) |
 | **Shizuku** | [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) |
-| **Nothing Archive** | [spike0en/nothing_archive](https://github.com/spike0en/nothing_archive) |
+| **Nothing Archive** | [Nothing Phone Firmware Archive](https://github.com/spike0en/nothing_archive) |
