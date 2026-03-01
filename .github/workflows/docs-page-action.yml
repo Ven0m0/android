@@ -23,21 +23,23 @@ jobs:
       - name: 'Checkout'
         uses: 'actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd' # v6
 
-      - name: 'Setup Python'
-        uses: 'actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405' # v6
+      - name: 'Setup Ruby'
+        uses: 'ruby/setup-ruby@v1'
         with:
-          python-version: '3.x'
+          ruby-version: '3.3'
+          bundler-cache: true
 
-      - name: 'Install MkDocs Material'
-        run: pip install -r requirements.txt
-
-      - name: 'Build with MkDocs'
-        run: mkdocs build --strict
+      - name: 'Build with Jekyll'
+        run: |
+          cd docs
+          bundle exec jekyll build --destination ../_site
+        env:
+          JEKYLL_ENV: production
 
       - name: 'Upload artifact'
         uses: 'actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b' # v4
         with:
-          path: site/
+          path: _site/
 
   deploy:
     environment:

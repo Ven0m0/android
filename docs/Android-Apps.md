@@ -1,15 +1,21 @@
 ---
 title: Android Apps
-description: Curated Android applications — Revanced, Shizuku-enabled tools, and package management.
+description: >-
+  Curated Android applications — Revanced, Shizuku-enabled
+  tools, and package management.
+nav_order: 2
 ---
 
 # Android Apps & Tools
 
-This page contains curated lists of Android applications and tools, organized by category.
+This page contains curated lists of Android applications
+and tools, organized by category.
 
-## 📦 Revanced
+## Revanced
 
-Revanced is a powerful patcher for Android applications, allowing you to add features and remove restrictions from popular apps.
+Revanced is a powerful patcher for Android applications,
+allowing you to add features and remove restrictions from
+popular apps.
 
 ### Essential Tools
 
@@ -28,9 +34,11 @@ Revanced is a powerful patcher for Android applications, allowing you to add fea
 
 ---
 
-## 🔧 Shizuku Apps
+## Shizuku Apps
 
-Shizuku enables apps to use system APIs directly without root access. Below is a comprehensive collection of Shizuku-enabled applications.
+Shizuku enables apps to use system APIs directly without
+root access. Below is a comprehensive collection of
+Shizuku-enabled applications.
 
 ### Resource Collections
 
@@ -128,11 +136,12 @@ Shizuku enables apps to use system APIs directly without root access. Below is a
 
 ---
 
-## 📋 Additional Resources
+## Additional Resources
 
 ### SetBox Configuration
 
-For SetBox to work properly with secure settings, grant the following permission:
+For SetBox to work properly with secure settings, grant
+the following permission:
 
 ```bash
 adb pm grant com.yn.setbox.plugin android.permission.WRITE_SECURE_SETTINGS
@@ -142,4 +151,3 @@ adb pm grant com.yn.setbox.plugin android.permission.WRITE_SECURE_SETTINGS
 
 - [Shizuku Apps (Root Alternative)](https://github.com/krishna3163/shizuku-apps-root-alternative)
 - [MrHyperIon's Shizuku Apps](https://github.com/MrHyperIon101/shizuku-apps)
-

@@ -1,19 +1,26 @@
 ---
 title: Chromium Browser
-description: Custom Chromium browser development for Android with performance and privacy enhancements.
+description: >-
+  Custom Chromium browser development for Android with
+  performance and privacy enhancements.
+nav_order: 5
 ---
 
 # Chromium Browser for Android
 
-Custom Chromium browser development for Android with performance optimizations and privacy enhancements.
+Custom Chromium browser development for Android with
+performance optimizations and privacy enhancements.
 
-## 🎯 Project Goal
+## Project Goal
 
-The current plan is to fork [Brave Browser](https://github.com/brave/brave-browser) and apply custom patches for enhanced performance and features on Android devices.
+The current plan is to fork
+[Brave Browser](https://github.com/brave/brave-browser)
+and apply custom patches for enhanced performance and
+features on Android devices.
 
 ---
 
-## 🚀 Base Project
+## Base Project
 
 ### Brave Browser
 **Repository:** [brave/brave-browser](https://github.com/brave/brave-browser)
@@ -27,14 +34,15 @@ The current plan is to fork [Brave Browser](https://github.com/brave/brave-brows
 
 ---
 
-## 🔧 Planned Patches
+## Planned Patches
 
 ### Performance Optimizations
 
 #### 1. Skia Scale Patch
 **Source:** [thorium/skia_scale.patch](https://github.com/Alex313031/thorium/blob/main/other/skia_scale.patch)
 
-**Purpose:** Optimizes Skia graphics rendering for better performance and reduced memory usage on mobile devices.
+**Purpose:** Optimizes Skia graphics rendering for better
+performance and reduced memory usage on mobile devices.
 
 **Benefits:**
 - Improved scrolling performance
@@ -44,9 +52,10 @@ The current plan is to fork [Brave Browser](https://github.com/brave/brave-brows
 
 ---
 
-## 📚 Reference Projects
+## Reference Projects
 
-These projects serve as inspiration and reference for custom Chromium builds:
+These projects serve as inspiration and reference for
+custom Chromium builds:
 
 ### Core References
 
@@ -66,7 +75,7 @@ These projects serve as inspiration and reference for custom Chromium builds:
 
 ---
 
-## 🛠️ Development Setup
+## Development Setup
 
 ### Prerequisites
 
@@ -114,29 +123,29 @@ git apply ../patches/custom/skia_scale.patch
 
 ---
 
-## 🎨 Planned Features
+## Planned Features
 
 ### Privacy Enhancements
-- ✅ Built-in ad/tracker blocking (from Brave)
-- ⏳ Enhanced fingerprinting protection
-- ⏳ Cookie auto-deletion
-- ⏳ Advanced privacy settings
+- Built-in ad/tracker blocking (from Brave)
+- Enhanced fingerprinting protection (planned)
+- Cookie auto-deletion (planned)
+- Advanced privacy settings (planned)
 
 ### Performance Optimizations
-- ⏳ Skia rendering improvements
-- ⏳ Memory usage optimization
-- ⏳ Faster JavaScript execution
-- ⏳ Reduced startup time
+- Skia rendering improvements (planned)
+- Memory usage optimization (planned)
+- Faster JavaScript execution (planned)
+- Reduced startup time (planned)
 
 ### Android-Specific
-- ⏳ Better battery optimization
-- ⏳ Improved gesture controls
-- ⏳ Enhanced mobile UI/UX
-- ⏳ Better support for low-end devices
+- Better battery optimization (planned)
+- Improved gesture controls (planned)
+- Enhanced mobile UI/UX (planned)
+- Better support for low-end devices (planned)
 
 ---
 
-## 📦 Build Process
+## Build Process
 
 ### Building for Android
 
@@ -171,7 +180,7 @@ ninja -C out/android_arm64 chrome_public_apk
 
 ---
 
-## 🔬 Testing
+## Testing
 
 ### Installation
 
@@ -196,7 +205,7 @@ adb logcat | grep -i chromium
 
 ---
 
-## 📋 Patch Management
+## Patch Management
 
 ### Creating Patches
 
@@ -221,7 +230,7 @@ done
 
 ---
 
-## 🔗 Useful Resources
+## Useful Resources
 
 ### Documentation
 - [Chromium Development](https://www.chromium.org/developers/)
@@ -240,21 +249,19 @@ done
 
 ---
 
-## 🚧 Development Status
+## Development Status
 
 | Component | Status | Notes |
 |-----------|--------|-------|
-| Base Fork | ⏳ Planning | Brave browser fork |
-| Skia Patch | ⏳ Pending | Performance optimization |
-| Build System | ⏳ Pending | Android build configuration |
-| Testing | ⏳ Pending | Device testing |
-| Release | ⏳ Pending | Initial release |
-
-**Legend:** ✅ Complete | ⏳ In Progress | ❌ Blocked | 📋 Planned
+| Base Fork | Planning | Brave browser fork |
+| Skia Patch | Pending | Performance optimization |
+| Build System | Pending | Android build configuration |
+| Testing | Pending | Device testing |
+| Release | Pending | Initial release |
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 ### Areas for Contribution
 1. Performance patches
@@ -272,7 +279,7 @@ done
 
 ---
 
-## ⚠️ Important Notes
+## Important Notes
 
 ### Legal Considerations
 - Respect Chromium and Brave licenses
@@ -285,4 +292,3 @@ done
 - **Storage:** ~200GB for full checkout
 - **RAM:** 16GB minimum, 64GB recommended
 - **CPU:** Multi-core processor recommended
-

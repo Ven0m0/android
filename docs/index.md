@@ -3,62 +3,39 @@ title: Home
 description: >-
   Android Development & Tools — curated resources, tools, and
   configurations for Android customization and development.
+layout: default
+nav_order: 1
+permalink: /
 ---
-
-<div class="hero" markdown>
 
 # Android Development & Tools
 
 Curated resources, tools, and configurations for Android
 development, customization, and AI-assisted workflows.
 
-<div class="hero-links" markdown>
-
-[:material-android: Browse Apps](Android-Apps.md){ .md-button }
-[:material-console: ADB Reference](ADB-Commands.md){ .md-button }
-
-</div>
-
-</div>
-
 ---
 
-<div class="grid cards" markdown>
+## Sections
 
-- :material-android: **[Android Apps](Android-Apps.md)**
-
-    ReVanced, Shizuku-enabled apps, and package
-    management tools for power users.
-
-- :material-console: **[ADB Commands](ADB-Commands.md)**
-
-    Essential ADB commands, system settings, and
-    device configuration reference.
-
-- :material-cellphone-cog:
-  **[Nothing Phone 2](Nothing-Phone.md)**
-
-    Custom ROMs, kernels, firmware flashing, and
-    bank app fixes for Nothing Phone 2.
-
-- :material-web: **[Chromium Browser](Chromium-Browser.md)**
-
-    Custom Chromium builds, performance patches,
-    and privacy enhancements for Android.
-
-</div>
+| Page | Description |
+|------|-------------|
+| **[Android Apps](Android-Apps.md)** | ReVanced, Shizuku-enabled apps, and package management tools for power users. |
+| **[ADB Commands](ADB-Commands.md)** | Essential ADB commands, system settings, and device configuration reference. |
+| **[Nothing Phone 2](Nothing-Phone.md)** | Custom ROMs, kernels, firmware flashing, and bank app fixes for Nothing Phone 2. |
+| **[Chromium Browser](Chromium-Browser.md)** | Custom Chromium builds, performance patches, and privacy enhancements for Android. |
 
 ---
 
 ## Quick Start
 
-!!! tip "Prerequisites"
-
-    - Android device with **developer options** enabled
-    - **ADB tools** installed on your development machine
-    - For Shizuku apps:
-      [Shizuku](https://github.com/RikkaApps/Shizuku)
-      installed and running
+{: .tip }
+> **Prerequisites**
+>
+> - Android device with **developer options** enabled
+> - **ADB tools** installed on your development machine
+> - For Shizuku apps:
+>   [Shizuku](https://github.com/RikkaApps/Shizuku)
+>   installed and running
 
 ### Getting Started
 
