@@ -57,6 +57,9 @@ markdown_extensions:
   - tables
   - attr_list
   - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true
 
@@ -76,5 +79,8 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/Ven0m0/android
+
+extra_css:
+  - stylesheets/extra.css
 
 copyright: Android Development &amp; Tools &mdash; <a href="https://github.com/Ven0m0/android">GitHub</a>

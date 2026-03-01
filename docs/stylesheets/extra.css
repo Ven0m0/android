@@ -1,0 +1,104 @@
+/* ── Hero Section ── */
+.md-typeset .hero {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+}
+
+.md-typeset .hero h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.md-typeset .hero p {
+  font-size: 1.1rem;
+  opacity: 0.8;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+/* ── Grid Cards ── */
+.md-typeset .grid.cards > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 0.8rem;
+  padding: 0;
+  list-style: none;
+}
+
+.md-typeset .grid.cards > ul > li {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  padding: 1rem 1.2rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li {
+  border-color: hsla(0, 0%, 100%, 0.08);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.32);
+}
+
+/* ── Tables – Responsive ── */
+@media screen and (max-width: 44.9375em) {
+  .md-typeset table:not([class]) {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    font-size: 0.82rem;
+  }
+
+  .md-typeset table:not([class]) th,
+  .md-typeset table:not([class]) td {
+    white-space: nowrap;
+    padding: 0.4rem 0.6rem;
+  }
+}
+
+/* ── Content Width – Desktop ── */
+@media screen and (min-width: 76.25em) {
+  .md-grid {
+    max-width: 68rem;
+  }
+}
+
+/* ── Footer Tweaks ── */
+.md-footer-meta {
+  font-size: 0.78rem;
+}
+
+/* ── Mobile Navigation Enhancements ── */
+@media screen and (max-width: 76.1875em) {
+  .md-nav__link {
+    padding: 0.7rem 0.8rem;
+  }
+}
+
+/* ── Admonitions – Tighten on Mobile ── */
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .admonition,
+  .md-typeset details {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* ── Code Blocks – Prevent Overflow ── */
+.md-typeset pre > code {
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
+
+/* ── Reduce Motion ── */
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset .grid.cards > ul > li {
+    transition: none;
+  }
+}
