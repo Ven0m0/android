@@ -10,9 +10,6 @@ permissions:
   pages: 'write'
   id-token: 'write'
 
-# Allow only one concurrent deployment, skipping runs queued between the run
-# in-progress and latest queued. However, do NOT cancel in-progress runs as we
-# want to allow these production deployments to complete.
 concurrency:
   group: '${{ github.workflow }}'
   cancel-in-progress: false
@@ -26,17 +23,21 @@ jobs:
       - name: 'Checkout'
         uses: 'actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd' # v6
 
-      - name: 'Setup Pages'
-        uses: 'actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b' # ratchet:actions/configure-pages@v5
-
-      - name: 'Build with Jekyll'
-        uses: 'actions/jekyll-build-pages@44a6e6beabd48582f863aeeb6cb2151cc1716697' # ratchet:actions/jekyll-build-pages@v1
+      - name: 'Setup Python'
+        uses: 'actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b' # ratchet:actions/setup-python@v5
         with:
-          source: './'
-          destination: './_site'
+          python-version: '3.x'
+
+      - name: 'Install MkDocs Material'
+        run: pip install -r requirements.txt
+
+      - name: 'Build with MkDocs'
+        run: mkdocs build --strict
 
       - name: 'Upload artifact'
         uses: 'actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b' # v4
+        with:
+          path: site/
 
   deploy:
     environment:

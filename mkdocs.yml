@@ -1,0 +1,74 @@
+site_name: Android Development & Tools
+site_url: https://ven0m0.github.io/android
+site_description: Curated resources, tools, and configurations for Android development, customization, and AI-assisted workflows.
+repo_url: https://github.com/Ven0m0/android
+repo_name: Ven0m0/android
+edit_uri: edit/main/docs/
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Android:
+      - Android Apps: Android-Apps.md
+      - ADB Commands: ADB-Commands.md
+      - Nothing Phone Mods: Nothing-Phone.md
+  - Browser:
+      - Chromium: Chromium-Browser.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Ven0m0/android
+
+copyright: Android Development &amp; Tools &mdash; <a href="https://github.com/Ven0m0/android">GitHub</a>

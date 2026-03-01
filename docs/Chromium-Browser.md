@@ -1,7 +1,6 @@
 ---
 title: Chromium Browser
-nav_order: 4
-description: "Custom Chromium browser development for Android with performance and privacy enhancements."
+description: Custom Chromium browser development for Android with performance and privacy enhancements.
 ---
 
 # Chromium Browser for Android
@@ -287,9 +286,3 @@ done
 - **RAM:** 16GB minimum, 64GB recommended
 - **CPU:** Multi-core processor recommended
 
----
-
-## 🔙 Navigation
-
-- [← Back to Home](index.md)
-- [← ADB Commands](ADB-Commands.md)

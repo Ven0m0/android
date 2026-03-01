@@ -1,7 +1,6 @@
 ---
 title: ADB Commands
-nav_order: 3
-description: "Essential ADB commands and system configurations for Android customization."
+description: Essential ADB commands and system configurations for Android customization.
 ---
 
 # ADB Commands & Configurations
@@ -295,10 +294,3 @@ adb root
 - [Settings Command Reference](https://developer.android.com/reference/android/provider/Settings)
 - [ADB Commands Cheatsheet](https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8)
 
----
-
-## 🔙 Navigation
-
-- [← Back to Home](index.md)
-- [← Android Apps](Android-Apps.md)
-- [Chromium Browser →](Chromium-Browser.md)
