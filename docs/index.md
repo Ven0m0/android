@@ -1,14 +1,23 @@
 ---
 title: Home
-description: Android Development & Tools — curated resources, tools, and configurations.
+description: >-
+  Android Development & Tools — curated resources, tools, and
+  configurations for Android customization and development.
 ---
 
 <div class="hero" markdown>
 
 # Android Development & Tools
 
-Curated resources, tools, and configurations for Android development,
-customization, and AI-assisted workflows.
+Curated resources, tools, and configurations for Android
+development, customization, and AI-assisted workflows.
+
+<div class="hero-links" markdown>
+
+[:material-android: Browse Apps](Android-Apps.md){ .md-button }
+[:material-console: ADB Reference](ADB-Commands.md){ .md-button }
+
+</div>
 
 </div>
 
@@ -18,20 +27,24 @@ customization, and AI-assisted workflows.
 
 - :material-android: **[Android Apps](Android-Apps.md)**
 
-    ReVanced, Shizuku-enabled apps, and package management tools
+    ReVanced, Shizuku-enabled apps, and package
+    management tools for power users.
 
 - :material-console: **[ADB Commands](ADB-Commands.md)**
 
-    Essential ADB commands and system configurations
+    Essential ADB commands, system settings, and
+    device configuration reference.
 
-- :material-cellphone-cog: **[Nothing Phone Mods](Nothing-Phone.md)**
+- :material-cellphone-cog:
+  **[Nothing Phone 2](Nothing-Phone.md)**
 
-    Custom ROMs, kernels, firmware flashing, and bank app fixes
-    for Nothing Phone 2
+    Custom ROMs, kernels, firmware flashing, and
+    bank app fixes for Nothing Phone 2.
 
 - :material-web: **[Chromium Browser](Chromium-Browser.md)**
 
-    Custom Chromium builds and patches for Android
+    Custom Chromium builds, performance patches,
+    and privacy enhancements for Android.
 
 </div>
 
@@ -39,18 +52,21 @@ customization, and AI-assisted workflows.
 
 ## Quick Start
 
-### Prerequisites
+!!! tip "Prerequisites"
 
-- Android device with **developer options** enabled
-- **ADB tools** installed on your development machine
-- For Shizuku apps: [Shizuku](https://github.com/RikkaApps/Shizuku)
-  installed and running
+    - Android device with **developer options** enabled
+    - **ADB tools** installed on your development machine
+    - For Shizuku apps:
+      [Shizuku](https://github.com/RikkaApps/Shizuku)
+      installed and running
 
 ### Getting Started
 
-1. Browse the sections above to find the tools you need
-2. Follow installation instructions for specific applications
-3. Configure ADB settings using the
+1. **Browse** the sections above to find the tools you
+   need
+2. **Follow** installation instructions for specific
+   applications
+3. **Configure** ADB settings using the
    [ADB Commands](ADB-Commands.md) guide
 
 ---
@@ -63,4 +79,4 @@ customization, and AI-assisted workflows.
 | **Shizuku Apps** | [Awesome Shizuku List](https://github.com/timschneeb/awesome-shizuku) |
 | **Browser Dev** | [Brave Browser](https://github.com/brave/brave-browser) |
 | **Shizuku** | [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) |
-| **Nothing Archive** | [Nothing Phone Firmware Archive](https://github.com/spike0en/nothing_archive) |
+| **Nothing Archive** | [Nothing Phone Firmware](https://github.com/spike0en/nothing_archive) |
