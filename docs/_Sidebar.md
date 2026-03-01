@@ -16,6 +16,11 @@
   - Package Management
   - Wireless ADB
 
+- **[Nothing Phone Mods](Nothing-Phone)**
+  - Custom ROM & Kernel
+  - Bank App Fixes
+  - Firmware Flashing
+
 ---
 
 ### 🌐 Development

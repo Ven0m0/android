@@ -7,6 +7,7 @@ Welcome to the Android Development & Tools wiki! This repository contains curate
 ### 🤖 Android Customization
 - **[Android Apps](Android-Apps)** - Comprehensive collection of Revanced and Shizuku-enabled applications
 - **[ADB Commands](ADB-Commands)** - Essential ADB commands and system configurations
+- **[Nothing Phone Mods](Nothing-Phone)** - Custom ROMs, kernels, firmware flashing, and bank app fixes for Nothing Phone 2
 
 ### 🌐 Browser Development
 - **[Chromium Browser](Chromium-Browser)** - Custom Chromium builds and patches for Android

@@ -22,6 +22,7 @@ A curated collection of resources, tools, and configurations for Android develop
 
 - **[Android Apps](Android-Apps.md)** — Revanced, Shizuku-enabled apps, and package management tools
 - **[ADB Commands](ADB-Commands.md)** — Essential ADB commands and system configurations
+- **[Nothing Phone Mods](Nothing-Phone.md)** — Custom ROMs, kernels, firmware flashing, and bank app fixes for Nothing Phone 2
 
 ### 🌐 Browser Development
 
@@ -53,6 +54,7 @@ A curated collection of resources, tools, and configurations for Android develop
 | **Shizuku Apps** | [Awesome Shizuku List](https://github.com/timschneeb/awesome-shizuku) |
 | **Browser Dev** | [Brave Browser](https://github.com/brave/brave-browser) |
 | **Shizuku** | [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) |
+| **Nothing Archive** | [spike0en/nothing_archive](https://github.com/spike0en/nothing_archive) |
 
 ---
 
