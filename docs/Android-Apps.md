@@ -1,7 +1,6 @@
 ---
 title: Android Apps
-nav_order: 2
-description: "Curated Android applications: Revanced, Shizuku-enabled tools, and package management."
+description: Curated Android applications — Revanced, Shizuku-enabled tools, and package management.
 ---
 
 # Android Apps & Tools
@@ -144,9 +143,3 @@ adb pm grant com.yn.setbox.plugin android.permission.WRITE_SECURE_SETTINGS
 - [Shizuku Apps (Root Alternative)](https://github.com/krishna3163/shizuku-apps-root-alternative)
 - [MrHyperIon's Shizuku Apps](https://github.com/MrHyperIon101/shizuku-apps)
 
----
-
-## 🔙 Navigation
-
-- [← Back to Home](index.md)
-- [ADB Commands →](ADB-Commands.md)

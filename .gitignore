@@ -241,6 +241,11 @@ composer.lock
 .cache/
 
 #######################
+# MkDocs build output
+#######################
+site/
+
+#######################
 # Linter / QA
 #######################
 github-step-summary.md

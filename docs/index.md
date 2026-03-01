@@ -1,36 +1,27 @@
 ---
 title: Home
-nav_order: 1
-description: "Android Development & Tools — curated resources, tools, and configurations."
-permalink: /
+description: Android Development & Tools — curated resources, tools, and configurations.
 ---
 
 # Android Development & Tools
 
-{: .fs-9 }
 A curated collection of resources, tools, and configurations for Android development, customization, and AI-assisted workflows.
-{: .fs-6 .fw-300 }
-
-[Android Apps](Android-Apps.md){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[ADB Commands](ADB-Commands.md){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
-## 📚 Contents
-
-### 🤖 Android Customization
+## Android Customization
 
 - **[Android Apps](Android-Apps.md)** — Revanced, Shizuku-enabled apps, and package management tools
 - **[ADB Commands](ADB-Commands.md)** — Essential ADB commands and system configurations
 - **[Nothing Phone Mods](Nothing-Phone.md)** — Custom ROMs, kernels, firmware flashing, and bank app fixes for Nothing Phone 2
 
-### 🌐 Browser Development
+## Browser Development
 
 - **[Chromium Browser](Chromium-Browser.md)** — Custom Chromium builds and patches for Android
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -46,7 +37,7 @@ A curated collection of resources, tools, and configurations for Android develop
 
 ---
 
-## 🔗 Key Resources
+## Key Resources
 
 | Resource | Link |
 |----------|------|
@@ -55,9 +46,3 @@ A curated collection of resources, tools, and configurations for Android develop
 | **Browser Dev** | [Brave Browser](https://github.com/brave/brave-browser) |
 | **Shizuku** | [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) |
 | **Nothing Archive** | [spike0en/nothing_archive](https://github.com/spike0en/nothing_archive) |
-
----
-
-## 🤝 Contributing
-
-This is a curated collection of resources. If you have suggestions for additions or improvements, please [open an issue](https://github.com/Ven0m0/android/issues) or pull request in the main repository.

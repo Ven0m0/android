@@ -1,7 +1,6 @@
 ---
 title: Nothing Phone Mods
-nav_order: 4
-description: "Guides for flashing custom ROMs, kernels, and fixing bank apps on Nothing Phone 2."
+description: Guides for flashing custom ROMs, kernels, and fixing bank apps on Nothing Phone 2.
 ---
 
 # Nothing Phone Mods
@@ -44,8 +43,8 @@ Restoring Widevine L1 certification (for DRM-protected streaming and some bankin
 | [bankingAOSP](https://github.com/lepras/bankingAOSP) | Scripts and Magisk modules to fix banking apps on AOSP-based ROMs |
 | [XDA Banking Guide](https://xdaforums.com/t/guide-howto-use-banking-apps-on-your-rooted-device.4530801/) | How to use banking apps on rooted devices |
 
-{: .note }
-Most banking fixes rely on passing Play Integrity (formerly SafetyNet). The Magisk Hide / Shamiko / Zygisk approach is the most common path.
+!!! note
+    Most banking fixes rely on passing Play Integrity (formerly SafetyNet). The Magisk Hide / Shamiko / Zygisk approach is the most common path.
 
 ---
 
@@ -74,5 +73,5 @@ If a Magisk module causes a bootloop, you can recover without a full reflash:
 
 - [Fix bootloop caused by modules](https://telegra.ph/Fix-bootloop-caused-by-modules-04-21)
 
-{: .warning }
-Always back up your data before flashing. Unlocking the bootloader **wipes the device**.
+!!! warning
+    Always back up your data before flashing. Unlocking the bootloader **wipes the device**.
