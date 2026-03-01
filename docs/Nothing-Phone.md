@@ -41,7 +41,7 @@ Restoring Widevine L1 certification (for DRM-protected streaming and some bankin
 |----------|-------------|
 | [Reddit Guide (Magisk)](https://www.reddit.com/r/Magisk/comments/1apepfh/article_guide_solving_bank_apps_google_wallet_and) | Comprehensive guide for bank apps, Google Wallet, and Play Integrity on rooted devices |
 | [bankingAOSP](https://github.com/lepras/bankingAOSP) | Scripts and Magisk modules to fix banking apps on AOSP-based ROMs |
-| [XDA Banking Guide](https://xdaforums.com/t/guide-howto-use-banking-apps-on-your-rooted-device.4530801/) | How to use banking apps on rooted devices |
+| [XDA Banking Guide](https://xdaforums.com/t/guide-howto-use-banking-apps-on-your-rooted-device.4530801) | How to use banking apps on rooted devices |
 
 !!! note
     Most banking fixes rely on passing Play Integrity (formerly SafetyNet). The Magisk Hide / Shamiko / Zygisk approach is the most common path.
