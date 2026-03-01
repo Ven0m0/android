@@ -1,13 +1,17 @@
 ---
 title: ADB Commands
-description: Essential ADB commands and system configurations for Android customization.
+description: >-
+  Essential ADB commands and system configurations for
+  Android customization.
+nav_order: 3
 ---
 
 # ADB Commands & Configurations
 
-Essential ADB commands and system configurations for Android customization and optimization.
+Essential ADB commands and system configurations for
+Android customization and optimization.
 
-## 📱 Prerequisites
+## Prerequisites
 
 Before using these commands, ensure you have:
 - **ADB Tools** installed on your computer
@@ -36,9 +40,10 @@ Download from [Android Developer Site](https://developer.android.com/tools/relea
 
 ---
 
-## 🔧 System Settings Commands
+## System Settings Commands
 
-These commands modify Android system settings using the `settings` command via ADB shell.
+These commands modify Android system settings using the
+`settings` command via ADB shell.
 
 ### Display & UI Settings
 
@@ -46,7 +51,8 @@ These commands modify Android system settings using the `settings` command via A
 ```bash
 adb shell settings put system aod_using_super_wallpaper 1
 ```
-**Description:** Enables Always-On Display (AOD) using the super wallpaper feature (MIUI/HyperOS).
+**Description:** Enables Always-On Display (AOD) using
+the super wallpaper feature (MIUI/HyperOS).
 
 ### Performance Settings
 
@@ -54,7 +60,8 @@ adb shell settings put system aod_using_super_wallpaper 1
 ```bash
 adb shell settings put global GPUTUNER_SWITCH true
 ```
-**Description:** Enables GPU tuning for better graphics performance.
+**Description:** Enables GPU tuning for better graphics
+performance.
 
 ### Security Settings
 
@@ -62,7 +69,8 @@ adb shell settings put global GPUTUNER_SWITCH true
 ```bash
 adb shell settings put secure install_non_market_apps 1
 ```
-**Description:** Permits installation of apps from sources other than the Play Store.
+**Description:** Permits installation of apps from sources
+other than the Play Store.
 
 ### Network Settings
 
@@ -70,11 +78,12 @@ adb shell settings put secure install_non_market_apps 1
 ```bash
 adb shell settings put global wifi_scan_always_enabled 0
 ```
-**Description:** Prevents WiFi scanning when WiFi is turned off, saving battery.
+**Description:** Prevents WiFi scanning when WiFi is
+turned off, saving battery.
 
 ---
 
-## 📋 Settings Command Reference
+## Settings Command Reference
 
 ### Command Structure
 
@@ -122,7 +131,7 @@ adb shell settings reset <namespace>
 
 ---
 
-## 🛠️ Package Management
+## Package Management
 
 ### Grant Permissions
 ```bash
@@ -153,7 +162,7 @@ adb shell pm uninstall <package>
 
 ---
 
-## 🔌 Wireless ADB
+## Wireless ADB
 
 ### Enable Wireless ADB
 
@@ -184,7 +193,7 @@ adb usb
 
 ---
 
-## 🎯 Useful Commands
+## Useful Commands
 
 ### Device Information
 ```bash
@@ -237,14 +246,18 @@ adb shell input swipe 300 1000 300 300 100
 
 ---
 
-## ⚠️ Important Notes
+## Important Notes
 
 ### Safety Considerations
 
-1. **Backup First**: Always backup your data before modifying system settings
-2. **Know What You're Doing**: Incorrect settings can cause system instability
-3. **Test One at a Time**: Apply settings individually to identify issues
-4. **Factory Reset Option**: Be prepared to factory reset if something goes wrong
+1. **Backup First**: Always backup your data before
+   modifying system settings
+2. **Know What You're Doing**: Incorrect settings can
+   cause system instability
+3. **Test One at a Time**: Apply settings individually
+   to identify issues
+4. **Factory Reset Option**: Be prepared to factory
+   reset if something goes wrong
 
 ### Persistence
 
@@ -256,11 +269,13 @@ adb shell input swipe 300 1000 300 300 100
 
 ### Automation
 
-Consider using tools like [Automate](https://llamalab.com/automate) or Tasker to automatically reapply settings after reboot.
+Consider using tools like
+[Automate](https://llamalab.com/automate) or Tasker to
+automatically reapply settings after reboot.
 
 ---
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### ADB Not Recognized
 ```bash
@@ -288,9 +303,8 @@ adb root
 
 ---
 
-## 📚 Additional Resources
+## Additional Resources
 
 - [Android Debug Bridge Documentation](https://developer.android.com/tools/adb)
 - [Settings Command Reference](https://developer.android.com/reference/android/provider/Settings)
 - [ADB Commands Cheatsheet](https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8)
-

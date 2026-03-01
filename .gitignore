@@ -241,9 +241,14 @@ composer.lock
 .cache/
 
 #######################
-# MkDocs build output
+# Jekyll build output
 #######################
-site/
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+Gemfile.lock
+.bundle/
 
 #######################
 # Linter / QA

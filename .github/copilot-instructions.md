@@ -2,15 +2,15 @@
 
 **Purpose:** Code generation guardrails for GitHub Copilot
 **Model:** copilot (GPT-4 based)
-**Tone:** Blunt, precise. Result-first. Lists ≤7
+**Tone:** Blunt, precise. Result-first. Lists <=7
 
 ---
 
 ## Project Overview
 
-MkDocs Material documentation site for Android development tools,
-customization (ReVanced, Shizuku), ADB commands, and Chromium browser builds.
-Deployed to GitHub Pages via tag-triggered GitHub Actions.
+Jekyll documentation site (just-the-docs theme) for Android development
+tools, customization (ReVanced, Shizuku), ADB commands, and Chromium
+browser builds. Deployed to GitHub Pages via tag-triggered GitHub Actions.
 
 ---
 
@@ -18,13 +18,13 @@ Deployed to GitHub Pages via tag-triggered GitHub Actions.
 
 ```bash
 # Setup
-pip install -r requirements.txt
+bundle install
 
-# Local preview (http://localhost:8000)
-mkdocs serve
+# Local preview (http://localhost:4000/android)
+cd docs && bundle exec jekyll serve
 
-# Build (--strict = treat warnings as errors, same as CI)
-mkdocs build --strict
+# Build
+cd docs && bundle exec jekyll build
 
 # Lint Bash scripts
 shellcheck -s bash -x -a -S warning <script.sh>
@@ -42,9 +42,9 @@ git tag v1.x.x && git push origin v1.x.x
 
 - Max 88 chars/line, LF endings, UTF-8
 - File names: PascalCase-kebab (`Android-Apps.md`)
-- Callouts: MkDocs admonitions (`!!! note`, `!!! warning`, `!!! tip`)
+- Callouts: just-the-docs syntax (`{: .note }`, `{: .warning }`, `{: .tip }`)
 - Code: fenced blocks with language tag (` ```bash `, ` ```yaml `)
-- New pages: add to `mkdocs.yml` nav section
+- New pages: add YAML frontmatter with `title:`, `description:`, `nav_order:`
 
 ### YAML / JSON
 
@@ -73,7 +73,7 @@ git tag v1.x.x && git push origin v1.x.x
 
 ## Toolchain Preference
 
-fd → find | rg → grep | bat → cat | sd → sed | aria2 → curl | jaq → jq | rust-parallel → xargs
+fd -> find | rg -> grep | bat -> cat | sd -> sed | aria2 -> curl | jaq -> jq | rust-parallel -> xargs
 
 ---
 
@@ -88,14 +88,14 @@ fd → find | rg → grep | bat → cat | sd → sed | aria2 → curl | jaq → 
 ## Code Style
 
 - **Fmt:** 2-space indent. Strip invisibles (U+202F/200B/00AD).
-- **Output:** Result-first. Lists ≤7 items.
-- **Abbr:** cfg, impl, deps, val, opt, Δ.
+- **Output:** Result-first. Lists <=7 items.
+- **Abbr:** cfg, impl, deps, val, opt.
 
 ---
 
 ## Quality Gates
 
-- **CI:** markdownlint · shellcheck · shfmt · mkdocs build --strict
+- **CI:** markdownlint + shellcheck + shfmt + jekyll build
 - **Validation:** No syntax errors. All scripts executable.
 - **Bash:** ShellCheck + ShFmt pass required before merge.
 
