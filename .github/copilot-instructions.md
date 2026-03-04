@@ -1,7 +1,7 @@
 # GitHub Copilot Dev Guardrails
 
 **Purpose:** Code generation guardrails for GitHub Copilot
-**Model:** copilot (GPT-4 based)
+**Model:** copilot
 **Tone:** Blunt, precise. Result-first. Lists <=7
 
 ---
