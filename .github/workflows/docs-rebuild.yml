@@ -10,8 +10,10 @@ jobs:
     runs-on: 'ubuntu-latest'
     steps:
       - name: 'Trigger rebuild'
+        env:
+          DOCS_REBUILD_URL: ${{ secrets.DOCS_REBUILD_URL }}
         run: |
           curl -X POST \
             -H "Content-Type: application/json" \
             -d '{}' \
-            "${{ secrets.DOCS_REBUILD_URL }}"
+            "${DOCS_REBUILD_URL}"
