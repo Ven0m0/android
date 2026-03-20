@@ -74,6 +74,7 @@ OTAs, or recover from a bootloop.
 | [Nothing Archive (XDA)](https://xdaforums.com/t/nothing-archive-stock-ota-incremental-updates-firmware-flashing-tools-guides-for-phone-2.4650877) | Stock OTA, incremental updates, firmware, flashing tools, and guides for Phone 2 |
 | [spike0en/nothing_archive](https://github.com/spike0en/nothing_archive) | Community-maintained firmware archive |
 | [arter97/Nothing_Archive](https://github.com/arter97/Nothing_Archive) | arter97's firmware archive mirror |
+| [NothingOSS Phone 2 Kernel Source](https://github.com/NothingOSS/android_kernel_msm-5.10_nothing_sm8475) | Official Phone 2 kernel source and device tree release notes |
 
 ### Flashing Tools
 
