@@ -1,0 +1,73 @@
+.home-hero {
+  margin: 1rem 0 2rem;
+  padding: 1.5rem;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background: linear-gradient(
+    135deg,
+    rgba($blue-300, 0.16),
+    rgba($purple-300, 0.08)
+  );
+}
+
+.home-hero p:last-child {
+  margin-bottom: 0;
+}
+
+.home-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.home-card {
+  height: 100%;
+  padding: 1rem;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background-color: $body-background-color;
+  box-shadow: 0 0 0 1px rgba($blue-300, 0.08);
+  transition:
+    transform 120ms ease,
+    border-color 120ms ease,
+    box-shadow 120ms ease;
+}
+
+.home-card:hover,
+.home-card:focus-within {
+  border-color: $link-color;
+  box-shadow: 0 0 0 1px rgba($blue-300, 0.2);
+  transform: translateY(-2px);
+}
+
+.home-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.home-card h3 a {
+  text-decoration: none;
+}
+
+.home-card p:last-child {
+  margin-bottom: 0;
+}
+
+.home-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 1rem 0 0;
+  list-style: none;
+}
+
+.home-chip-list a {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid $border-color;
+  border-radius: 999px;
+  background-color: $code-background-color;
+  text-decoration: none;
+}

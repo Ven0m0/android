@@ -25,6 +25,14 @@ popular apps.
 | **LSPatch** | LSPosed module loader without root | [GitHub](https://github.com/JingMatrix/LSPatch) |
 | **Universal ReVanced Manager** | Comprehensive ReVanced manager | [GitHub](https://github.com/Jman-Github/Universal-ReVanced-Manager) |
 
+### Official ReVanced Projects
+
+| Project | Description | Link |
+|---------|-------------|------|
+| **ReVanced Manager** | Official Android patch manager from the ReVanced team | [GitHub](https://github.com/ReVanced/revanced-manager) |
+| **ReVanced CLI** | Command-line tool for scripted or desktop patch builds | [GitHub](https://github.com/ReVanced/revanced-cli) |
+| **ReVanced Patches** | Official patch source, changelog, and issue tracker | [GitHub](https://github.com/ReVanced/revanced-patches) |
+
 ### Getting Started with Revanced
 
 1. Download and install the Universal ReVanced Manager
@@ -46,6 +54,7 @@ Shizuku-enabled applications.
 - [Awesome Shizuku](https://github.com/timschneeb/awesome-shizuku) - Comprehensive Shizuku resources
 - [App Crawler Summary](https://github.com/timschneeb/app-crawler/blob/master/SUMMARY.md) - Detailed app listings
 - [ShizukuDhizuku List](https://github.com/UrkeJH/ShizukuDhizuku-list) - Alternative collection
+- [Shizuku-API](https://github.com/RikkaApps/Shizuku-API) - Official API and developer guide for Shizuku and Sui
 
 ### System & Development Tools
 
@@ -55,6 +64,16 @@ Shizuku-enabled applications.
 | **PI** | Package Management | Package installer | [GitHub](https://github.com/SanmerApps/PI) |
 | **aShellYou** | Terminal | ADB shell interface | [GitHub](https://github.com/DP-Hridayan/aShellYou) |
 | **Wireless ADB Switch** | Development | Quick wireless ADB toggle | [GitHub](https://github.com/Smooth-E/wireless-adb-switch) |
+
+### Debloat & App Control
+
+| App | Description | Link |
+|-----|-------------|------|
+| **Hail** | Freeze, hide, suspend, or uninstall apps with Shizuku support | [GitHub](https://github.com/aistra0528/Hail) |
+| **Canta** | Debloat preinstalled apps without root using Shizuku | [GitHub](https://github.com/samolego/Canta) |
+| **InstallerX-Revived** | Expressive package installer for Shizuku and Dhizuku workflows | [GitHub](https://github.com/wxxsfxyzm/InstallerX-Revived) |
+| **ShizuTools** | Toolkit for debloat, audio, PiP, and app controls | [GitHub](https://github.com/legendsayantan/ShizuTools) |
+| **Inure** | App manager with Root and Shizuku support plus a built-in terminal | [GitHub](https://github.com/Hamza417/Inure) |
 
 ### APK & Package Management
 

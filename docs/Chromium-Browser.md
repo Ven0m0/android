@@ -63,6 +63,7 @@ custom Chromium builds:
 |---------|-------------|--------------|------|
 | **Brave Core** | Brave's core functionality | Privacy features, crypto wallet, rewards | [GitHub](https://github.com/brave/brave-core) |
 | **Cromite** | Privacy-focused Chromium fork | Enhanced security, debloated | [GitHub](https://github.com/uazo/cromite) |
+| **Bromite** | Android Chromium fork | Ad blocking, privacy features, wiki docs | [GitHub](https://github.com/bromite/bromite) |
 | **Thorium** | Performance-optimized Chromium | Speed optimizations, patches | [GitHub](https://github.com/Alex313031/thorium) |
 
 ### Additional References

@@ -24,10 +24,20 @@ search:
   previews: 3
   preview_words_before: 5
   preview_words_after: 10
+  rel_url: true
+  button: true
+  focus_shortcut_key: "k"
 
 heading_anchors: true
 back_to_top: true
 back_to_top_text: "Back to top"
+
+gh_edit_link: true
+gh_edit_link_text: "Suggest an update for this page on GitHub."
+gh_edit_repository: "https://github.com/Ven0m0/android"
+gh_edit_branch: "main"
+gh_edit_source: "docs"
+gh_edit_view_mode: "edit"
 
 footer_content: >-
   Android Development &amp; Tools &mdash;
