@@ -20,44 +20,44 @@ permalink: /
     commands, browser projects, and device-specific guides.
   </p>
   <ul class="home-chip-list">
-    <li><a href="Android-Apps.md">Shizuku &amp; ReVanced</a></li>
-    <li><a href="ADB-Commands.md">ADB quick reference</a></li>
-    <li><a href="Nothing-Phone.md">Nothing Phone mods</a></li>
-    <li><a href="Chromium-Browser.md">Chromium forks</a></li>
+    <li><a href="Android-Apps.html">Shizuku &amp; ReVanced</a></li>
+    <li><a href="ADB-Commands.html">ADB quick reference</a></li>
+    <li><a href="Nothing-Phone.html">Nothing Phone mods</a></li>
+    <li><a href="Chromium-Browser.html">Chromium forks</a></li>
   </ul>
 </div>
 
 ## Explore by topic
 
 <div class="home-grid">
-  <a class="home-card" href="Android-Apps.md">
-    <h3>Android Apps</h3>
+  <div class="home-card">
+    <h3><a href="Android-Apps.html">Android Apps</a></h3>
     <p>
       ReVanced tools, Shizuku apps, package managers, debloat utilities, and
       automation picks.
     </p>
-  </a>
-  <a class="home-card" href="ADB-Commands.md">
-    <h3>ADB Commands</h3>
+  </div>
+  <div class="home-card">
+    <h3><a href="ADB-Commands.html">ADB Commands</a></h3>
     <p>
       A quick-reference page for device setup, system tuning, and day-to-day
       Android debugging.
     </p>
-  </a>
-  <a class="home-card" href="Nothing-Phone.md">
-    <h3>Nothing Phone Mods</h3>
+  </div>
+  <div class="home-card">
+    <h3><a href="Nothing-Phone.html">Nothing Phone Mods</a></h3>
     <p>
       ROM, kernel, firmware, and banking-fix links focused on the Nothing
       Phone 2.
     </p>
-  </a>
-  <a class="home-card" href="Chromium-Browser.md">
-    <h3>Chromium Browser</h3>
+  </div>
+  <div class="home-card">
+    <h3><a href="Chromium-Browser.html">Chromium Browser</a></h3>
     <p>
       Notes and references for Brave-based Android browser work, privacy
       forks, and patch sources.
     </p>
-  </a>
+  </div>
 </div>
 
 ## Quick Start
@@ -78,7 +78,7 @@ permalink: /
 2. **Follow** installation instructions for specific
    applications
 3. **Configure** ADB settings using the
-   [ADB Commands](ADB-Commands.md) guide
+   [ADB Commands](ADB-Commands.html) guide
 
 ## Fresh GitHub picks
 

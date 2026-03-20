@@ -22,14 +22,12 @@
 }
 
 .home-card {
-  display: block;
   height: 100%;
   padding: 1rem;
   border: 1px solid $border-color;
   border-radius: $border-radius;
   background-color: $body-background-color;
   box-shadow: 0 0 0 1px rgba($blue-300, 0.08);
-  text-decoration: none !important;
   transition:
     transform 120ms ease,
     border-color 120ms ease,
@@ -37,7 +35,7 @@
 }
 
 .home-card:hover,
-.home-card:focus {
+.home-card:focus-within {
   border-color: $link-color;
   box-shadow: 0 0 0 1px rgba($blue-300, 0.2);
   transform: translateY(-2px);
@@ -46,6 +44,10 @@
 .home-card h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+}
+
+.home-card h3 a {
+  text-decoration: none;
 }
 
 .home-card p:last-child {
