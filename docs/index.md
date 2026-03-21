@@ -82,6 +82,9 @@ permalink: /
 
 ## Fresh GitHub picks
 
+Picked from
+[@Ven0m0's Android stars list](https://github.com/stars/Ven0m0/lists/android).
+
 | Project | Why it stands out | Link |
 |---------|-------------------|------|
 | **ReVanced Manager** | Official Android patch manager for ReVanced workflows | [GitHub](https://github.com/ReVanced/revanced-manager) |
@@ -90,9 +93,9 @@ permalink: /
 | **Shizuku-API** | Official API and developer guide for Shizuku and Sui | [GitHub](https://github.com/RikkaApps/Shizuku-API) |
 | **Bromite** | Chromium fork with ad blocking, privacy features, and wiki docs | [GitHub](https://github.com/bromite/bromite) |
 | **NothingOSS Phone 2 Kernel** | Official Phone 2 kernel source and device tree release notes | [GitHub](https://github.com/NothingOSS/android_kernel_msm-5.10_nothing_sm8475) |
-| **ReVanced Patch Bundles** | Aggregates alternative ReVanced patch and integration feeds for Manager Compose | [GitHub](https://github.com/Jman-Github/ReVanced-Patch-Bundles) |
-| **Amaze File Manager** | Open-source Material file manager for Android devices and APK workflows | [GitHub](https://github.com/TeamAmaze/AmazeFileManager) |
+| **Droid-ify** | Clutter-free F-Droid client for browsing and installing Android apps | [GitHub](https://github.com/Droid-ify/client) |
+| **Obtainium** | Pull Android app updates directly from upstream release sources | [GitHub](https://github.com/ImranR98/Obtainium) |
+| **SD Maid SE** | Thorough Android cleaner focused on storage and app maintenance | [GitHub](https://github.com/d4rken-org/sdmaid-se) |
+| **OwnDroid** | Manage Android Device Owner privileges for advanced device control | [GitHub](https://github.com/BinTianqi/OwnDroid) |
 | **Metrolist** | Modern YouTube Music client for Android with a clean local-first experience | [GitHub](https://github.com/MetrolistGroup/Metrolist) |
-| **Lawnchair** | Popular open-source Android launcher for Pixel-style customization | [GitHub](https://github.com/LawnchairLauncher/lawnchair) |
-| **DisabledLauncher** | Disable rarely used apps while keeping them easy to launch again | [GitHub](https://github.com/voruti/DisabledLauncher) |
-| **F-Droid List Repository** | Directory of additional F-Droid repositories for finding more Android apps | [GitHub](https://github.com/userkilled/FDroid-List-Repository) |
+| **nothing_archive** | Indexes official Nothing and CMF firmware plus OTA update links | [GitHub](https://github.com/spike0en/nothing_archive) |
