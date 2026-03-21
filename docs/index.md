@@ -98,4 +98,4 @@ Picked from
 | **SD Maid SE** | Thorough Android cleaner focused on storage and app maintenance | [GitHub](https://github.com/d4rken-org/sdmaid-se) |
 | **OwnDroid** | Manage Android Device Owner privileges for advanced device control | [GitHub](https://github.com/BinTianqi/OwnDroid) |
 | **Metrolist** | Modern YouTube Music client for Android with a clean local-first experience | [GitHub](https://github.com/MetrolistGroup/Metrolist) |
-| **nothing_archive** | Indexes official Nothing and CMF firmware plus OTA update links | [GitHub](https://github.com/spike0en/nothing_archive) |
+| **wireless-adb-switch** | Toggle Android wireless debugging quickly with widgets and a quick settings tile | [GitHub](https://github.com/Smooth-E/wireless-adb-switch) |
