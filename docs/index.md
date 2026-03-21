@@ -82,11 +82,21 @@ permalink: /
 
 ## Fresh GitHub picks
 
+Picked from
+[@Ven0m0's Android stars list](https://github.com/stars/Ven0m0/lists/android)
+and broader starred repos searched with the GitHub CLI.
+
 | Project | Why it stands out | Link |
 |---------|-------------------|------|
-| **ReVanced Manager** | Official Android patch manager for ReVanced workflows | [GitHub](https://github.com/ReVanced/revanced-manager) |
-| **Hail** | Freeze, hide, suspend, or uninstall apps with Shizuku support | [GitHub](https://github.com/aistra0528/Hail) |
-| **Canta** | Shizuku-powered debloat tool for uninstalling preinstalled apps | [GitHub](https://github.com/samolego/Canta) |
+| **Termux** | Android terminal environment with a large package ecosystem for device-side workflows | [GitHub](https://github.com/termux/termux-app) |
+| **Accrescent** | Security-focused Android app store built around privacy and usability | [GitHub](https://github.com/accrescent/accrescent) |
+| **Material Files** | Polished Material Design file manager for local and network storage tasks | [GitHub](https://github.com/zhanghai/MaterialFiles) |
 | **Shizuku-API** | Official API and developer guide for Shizuku and Sui | [GitHub](https://github.com/RikkaApps/Shizuku-API) |
 | **Bromite** | Chromium fork with ad blocking, privacy features, and wiki docs | [GitHub](https://github.com/bromite/bromite) |
-| **NothingOSS Phone 2 Kernel** | Official Phone 2 kernel source and device tree release notes | [GitHub](https://github.com/NothingOSS/android_kernel_msm-5.10_nothing_sm8475) |
+| **InnerTune** | Material 3 YouTube Music client for Android with an active open-source codebase | [GitHub](https://github.com/z-huang/InnerTune) |
+| **Droid-ify** | Clutter-free F-Droid client for browsing and installing Android apps | [GitHub](https://github.com/Droid-ify/client) |
+| **Obtainium** | Pull Android app updates directly from upstream release sources | [GitHub](https://github.com/ImranR98/Obtainium) |
+| **SD Maid SE** | Thorough Android cleaner focused on storage and app maintenance | [GitHub](https://github.com/d4rken-org/sdmaid-se) |
+| **OwnDroid** | Manage Android Device Owner privileges for advanced device control | [GitHub](https://github.com/BinTianqi/OwnDroid) |
+| **Metrolist** | Modern YouTube Music client for Android with a clean local-first experience | [GitHub](https://github.com/MetrolistGroup/Metrolist) |
+| **wireless-adb-switch** | Toggle Android wireless debugging quickly with widgets and a quick settings tile | [GitHub](https://github.com/Smooth-E/wireless-adb-switch) |
