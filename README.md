@@ -8,7 +8,7 @@
 
 
 ### Shizuku
-
+- [Shizuku github apps](https://github.com/timschneeb/app-crawler/blob/master/SUMMARY.md)
 - https://github.com/SheeshTony/ShizukuApps
 - https://github.com/RikkaApps/WADB
 - https://github.com/SanmerApps/PI
