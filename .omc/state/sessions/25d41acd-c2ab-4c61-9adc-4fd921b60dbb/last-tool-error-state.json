@@ -1,7 +1,0 @@
-{
-  "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"cd \\\"C:\\\\Users\\\\Ven0m0\\\\project\\\\android\\\" && rtk ls .omc/wiki 2>/dev/null && echo \\\"---index---\\\" && rtk read .omc/wiki/index.md 2>/dev/null\",\"description\":\"Check internal omc wiki state\"...",
-  "error": "Exit code 2",
-  "timestamp": "2026-09-17T00:59:17.107Z",
-  "retry_count": 1
-}
