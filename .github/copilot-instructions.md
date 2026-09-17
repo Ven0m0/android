@@ -9,8 +9,8 @@
 ## Project Overview
 
 Jekyll documentation site (just-the-docs theme) for Android development
-tools, customization (ReVanced, Shizuku), ADB commands, and Chromium
-browser builds. Deployed to GitHub Pages via tag-triggered GitHub Actions.
+tools, customization (ReVanced, Shizuku), and ADB commands. Deployed to
+GitHub Pages via tag-triggered GitHub Actions.
 
 ---
 

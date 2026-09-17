@@ -9,8 +9,8 @@
 ## Project
 
 **Description:** Jekyll documentation site (just-the-docs theme) covering
-Android app customization (ReVanced, Shizuku), ADB commands, device-specific
-mods, and custom Chromium browser builds.
+Android app customization (ReVanced, Shizuku), ADB commands, and
+device-specific mods.
 
 | Key | Value |
 |-----|-------|
@@ -31,8 +31,7 @@ mods, and custom Chromium browser builds.
 │   ├── index.md — Home page / quick-start
 │   ├── Android-Apps.md — ReVanced, Shizuku, & categorized tools
 │   ├── ADB-Commands.md — ADB shell command reference
-│   ├── Nothing-Phone.md — Nothing Phone 2 mods, ROMs, kernels
-│   └── Chromium-Browser.md — Custom Chromium fork plans & patches
+│   └── Nothing-Phone.md — Nothing Phone 2 mods, ROMs, kernels
 ├── @.github/
 │   ├── workflows/
 │   │   ├── docs-page-action.yml — Build + deploy to GH Pages on tag push

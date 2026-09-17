@@ -1,0 +1,220 @@
+{
+  "version": 1,
+  "jobId": "a72234dc-e62a-4100-9d3a-ecf6f2081042",
+  "sessionId": "25d41acd-c2ab-4c61-9adc-4fd921b60dbb",
+  "scopeKey": "1872c6af15d1e6b36ba7e25c795dd126d41598c3e8c45653a18da6490701c87d",
+  "revision": 1,
+  "createdAt": "2026-09-17T01:06:44.550Z",
+  "updatedAt": "2026-09-17T01:06:44.632Z",
+  "producerGraceExpiresAt": "2026-09-17T01:07:14.551Z",
+  "bestEffortDeadlineAt": "2026-09-17T01:08:05.551Z",
+  "producers": {
+    "core": {
+      "state": "prepared",
+      "intentKey": "72e6e5fe354221fc97736f4bbf5481bca4022f1c99560a367cbd2ae244280c4b",
+      "payloadDigest": "72e6e5fe354221fc97736f4bbf5481bca4022f1c99560a367cbd2ae244280c4b"
+    },
+    "wiki": {
+      "state": "no-op",
+      "sealedAt": "2026-09-17T01:06:44.632Z",
+      "sealedBy": "wiki-producer"
+    }
+  },
+  "actions": {
+    "foreground-cleanup": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "pending",
+      "attempts": 0,
+      "idempotencyKey": "07dd6e65085845b3c8a2dbe28522e790c2faa2a3d89914ef80d7d50eb5167d6a",
+      "payload": {
+        "transcriptPath": "C:\\Users\\Ven0m0\\.claude\\projects\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb.jsonl",
+        "cwd": "C:\\Users\\Ven0m0\\project\\android\\docs",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "25d41acd-c2ab-4c61-9adc-4fd921b60dbb",
+          "transcript_path": "C:\\Users\\Ven0m0\\.claude\\projects\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb.jsonl",
+          "cwd": "C:\\Users\\Ven0m0\\project\\android\\docs",
+          "scratchpad_dir": "C:\\Users\\Ven0m0\\AppData\\Local\\Temp\\claude\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb\\scratchpad",
+          "prompt_id": "93c6dc40-ac19-4427-a4f5-da9601f4c212",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {}
+      },
+      "budgetMs": 9000
+    },
+    "wiki-capture": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 0,
+      "idempotencyKey": "c52e6ba22e56633ed845691cc3b4a3cbdc2b44dc327248d31dd3b20b5ad33561",
+      "payload": {
+        "transcriptPath": "C:\\Users\\Ven0m0\\.claude\\projects\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb.jsonl",
+        "cwd": "C:\\Users\\Ven0m0\\project\\android\\docs",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "25d41acd-c2ab-4c61-9adc-4fd921b60dbb",
+          "transcript_path": "C:\\Users\\Ven0m0\\.claude\\projects\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb.jsonl",
+          "cwd": "C:\\Users\\Ven0m0\\project\\android\\docs",
+          "scratchpad_dir": "C:\\Users\\Ven0m0\\AppData\\Local\\Temp\\claude\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb\\scratchpad",
+          "prompt_id": "93c6dc40-ac19-4427-a4f5-da9601f4c212",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {}
+      },
+      "budgetMs": 9000,
+      "completedAt": "2026-09-17T01:06:44.632Z"
+    },
+    "team-cleanup": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "pending",
+      "attempts": 0,
+      "idempotencyKey": "fba5a4f46a7d9006affc9b34500f166b635b1ce9ee92b1d75df428e317a9f5e7",
+      "payload": {
+        "transcriptPath": "C:\\Users\\Ven0m0\\.claude\\projects\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb.jsonl",
+        "cwd": "C:\\Users\\Ven0m0\\project\\android\\docs",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "25d41acd-c2ab-4c61-9adc-4fd921b60dbb",
+          "transcript_path": "C:\\Users\\Ven0m0\\.claude\\projects\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb.jsonl",
+          "cwd": "C:\\Users\\Ven0m0\\project\\android\\docs",
+          "scratchpad_dir": "C:\\Users\\Ven0m0\\AppData\\Local\\Temp\\claude\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb\\scratchpad",
+          "prompt_id": "93c6dc40-ac19-4427-a4f5-da9601f4c212",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {}
+      },
+      "budgetMs": 9000
+    },
+    "python-cleanup": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "pending",
+      "attempts": 0,
+      "idempotencyKey": "a01af4807e86544d2e1108ab7c0498adcff6dbd95744f57bc4badcc9034efc58",
+      "payload": {
+        "transcriptPath": "C:\\Users\\Ven0m0\\.claude\\projects\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb.jsonl",
+        "cwd": "C:\\Users\\Ven0m0\\project\\android\\docs",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "25d41acd-c2ab-4c61-9adc-4fd921b60dbb",
+          "transcript_path": "C:\\Users\\Ven0m0\\.claude\\projects\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb.jsonl",
+          "cwd": "C:\\Users\\Ven0m0\\project\\android\\docs",
+          "scratchpad_dir": "C:\\Users\\Ven0m0\\AppData\\Local\\Temp\\claude\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb\\scratchpad",
+          "prompt_id": "93c6dc40-ac19-4427-a4f5-da9601f4c212",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {}
+      },
+      "budgetMs": 9000
+    },
+    "reply-cleanup": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "pending",
+      "attempts": 0,
+      "idempotencyKey": "bbe85a308be4b85aed7bab19f3d7a45d0a2b51fca0ea18c60cbf5e47e7c289d6",
+      "payload": {
+        "transcriptPath": "C:\\Users\\Ven0m0\\.claude\\projects\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb.jsonl",
+        "cwd": "C:\\Users\\Ven0m0\\project\\android\\docs",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "25d41acd-c2ab-4c61-9adc-4fd921b60dbb",
+          "transcript_path": "C:\\Users\\Ven0m0\\.claude\\projects\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb.jsonl",
+          "cwd": "C:\\Users\\Ven0m0\\project\\android\\docs",
+          "scratchpad_dir": "C:\\Users\\Ven0m0\\AppData\\Local\\Temp\\claude\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb\\scratchpad",
+          "prompt_id": "93c6dc40-ac19-4427-a4f5-da9601f4c212",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {}
+      },
+      "budgetMs": 9000
+    },
+    "callback": {
+      "class": "best-effort",
+      "phase": "deferred-best-effort",
+      "status": "pending",
+      "attempts": 0,
+      "idempotencyKey": "1dbfb62b295ca2578dfe9ac4fd1d7447a37c4d17b3c13fb08639b09e3f94db2d",
+      "payload": {
+        "transcriptPath": "C:\\Users\\Ven0m0\\.claude\\projects\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb.jsonl",
+        "cwd": "C:\\Users\\Ven0m0\\project\\android\\docs",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "25d41acd-c2ab-4c61-9adc-4fd921b60dbb",
+          "transcript_path": "C:\\Users\\Ven0m0\\.claude\\projects\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb.jsonl",
+          "cwd": "C:\\Users\\Ven0m0\\project\\android\\docs",
+          "scratchpad_dir": "C:\\Users\\Ven0m0\\AppData\\Local\\Temp\\claude\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb\\scratchpad",
+          "prompt_id": "93c6dc40-ac19-4427-a4f5-da9601f4c212",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {}
+      },
+      "budgetMs": 2000
+    },
+    "notification": {
+      "class": "best-effort",
+      "phase": "deferred-best-effort",
+      "status": "pending",
+      "attempts": 0,
+      "idempotencyKey": "a6f77973fda8a08f61b79c39493592419ee97e395feda3eb8a07d49c3f709a20",
+      "payload": {
+        "transcriptPath": "C:\\Users\\Ven0m0\\.claude\\projects\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb.jsonl",
+        "cwd": "C:\\Users\\Ven0m0\\project\\android\\docs",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "25d41acd-c2ab-4c61-9adc-4fd921b60dbb",
+          "transcript_path": "C:\\Users\\Ven0m0\\.claude\\projects\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb.jsonl",
+          "cwd": "C:\\Users\\Ven0m0\\project\\android\\docs",
+          "scratchpad_dir": "C:\\Users\\Ven0m0\\AppData\\Local\\Temp\\claude\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb\\scratchpad",
+          "prompt_id": "93c6dc40-ac19-4427-a4f5-da9601f4c212",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {}
+      },
+      "budgetMs": 2000
+    },
+    "openclaw": {
+      "class": "best-effort",
+      "phase": "deferred-best-effort",
+      "status": "pending",
+      "attempts": 0,
+      "idempotencyKey": "dacae27f31d36b15b981b09dde4d59d6242183f27b728aa123a5f3fc31135b01",
+      "payload": {
+        "transcriptPath": "C:\\Users\\Ven0m0\\.claude\\projects\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb.jsonl",
+        "cwd": "C:\\Users\\Ven0m0\\project\\android\\docs",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "25d41acd-c2ab-4c61-9adc-4fd921b60dbb",
+          "transcript_path": "C:\\Users\\Ven0m0\\.claude\\projects\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb.jsonl",
+          "cwd": "C:\\Users\\Ven0m0\\project\\android\\docs",
+          "scratchpad_dir": "C:\\Users\\Ven0m0\\AppData\\Local\\Temp\\claude\\C--Users-Ven0m0-project-android\\25d41acd-c2ab-4c61-9adc-4fd921b60dbb\\scratchpad",
+          "prompt_id": "93c6dc40-ac19-4427-a4f5-da9601f4c212",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {}
+      },
+      "budgetMs": 2000
+    }
+  },
+  "owner": null,
+  "phase": "collecting"
+}

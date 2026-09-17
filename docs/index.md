@@ -23,7 +23,6 @@ permalink: /
     <li><a href="Android-Apps.html">Shizuku &amp; ReVanced</a></li>
     <li><a href="ADB-Commands.html">ADB quick reference</a></li>
     <li><a href="Nothing-Phone.html">Nothing Phone mods</a></li>
-    <li><a href="Chromium-Browser.html">Chromium forks</a></li>
   </ul>
 </div>
 
@@ -49,13 +48,6 @@ permalink: /
     <p>
       ROM, kernel, firmware, and banking-fix links focused on the Nothing
       Phone 2.
-    </p>
-  </div>
-  <div class="home-card">
-    <h3><a href="Chromium-Browser.html">Chromium Browser</a></h3>
-    <p>
-      Notes and references for Brave-based Android browser work, privacy
-      forks, and patch sources.
     </p>
   </div>
 </div>

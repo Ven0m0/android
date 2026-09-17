@@ -11,6 +11,15 @@ nav_order: 2
 This page contains curated lists of Android applications
 and tools, organized by category.
 
+## Browsers
+
+| App | Description | Link |
+|-----|-------------|------|
+| **Titanium** | Chromium-based Android browser fork | [GitHub](https://github.com/jqssun/android-titanium-browser) |
+| **Brave Beta** | Beta channel of the Brave browser | [Play Store](https://play.google.com/store/apps/details?id=com.brave.browser_beta) |
+
+---
+
 ## Revanced
 
 Revanced is a powerful patcher for Android applications,
